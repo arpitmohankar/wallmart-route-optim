@@ -72,7 +72,7 @@ io.on('connection', (socket) => {
 // API Routes
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/delivery', require('./routes/delivery'));
-app.use('/api/route', require('./routes/route'));
+app.use('/api/route', require('./routes/rout'));
 
 // Health Check Route
 app.get('/api/health', (req, res) => {

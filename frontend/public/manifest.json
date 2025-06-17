@@ -7,6 +7,10 @@
   "background_color": "#ffffff",
   "theme_color": "#2196f3",
   "orientation": "portrait",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["business", "logistics", "productivity"],
   "icons": [
     {
       "src": "/icons/icon-192.png",
