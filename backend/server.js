@@ -70,12 +70,12 @@ io.on('connection', (socket) => {
 });
 
 // API Routes
-app.use('/api/auth', require('./routes/auth'));
-app.use('/api/delivery', require('./routes/delivery'));
-app.use('/api/route', require('./routes/rout'));
+app.use('/auth', require('./routes/auth'));
+app.use('/delivery', require('./routes/delivery'));
+app.use('/route', require('./routes/rout'));
 
 // Health Check Route
-app.get('/api/health', (req, res) => {
+app.get('/health', (req, res) => {
   res.json({ 
     message: 'Delivery Optimization Server is running!', 
     timestamp: new Date().toISOString(),
